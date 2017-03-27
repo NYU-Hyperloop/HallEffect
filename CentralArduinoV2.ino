@@ -3,6 +3,8 @@
 //#include <Adafruit_LSM303_U.h>
 #include <SPI.h>
 
+//Code needs to be changed for getting all sensors on board and filtered Ex. accelerometers, the rest of the thermo couples, etc.
+
 const int analogIn = A2;
 int mVperAmp = 100; // use 100 for 20A Module and 66 for 30A Module
 int RawValue= 0;
